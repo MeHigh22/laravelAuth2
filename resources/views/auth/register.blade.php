@@ -15,9 +15,21 @@
             <!-- Name -->
             <div>
                 <x-label for="name" :value="__('Name')" />
-
                 <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
             </div>
+
+            {{-- Prenom --}}
+            <div>
+                <x-label for="prenom" :value="__('Prenom')" />
+                <x-input id="prenom" class="block mt-1 w-full" type="text" name="prenom" :value="old('prenom')" required autofocus />
+            </div>
+
+            {{-- Age --}}
+            <div>
+                <x-label for="age" :value="__('Age')" />
+                <x-input id="age" class="block mt-1 w-full" type="text" name="age" :value="old('name')" required autofocus />
+            </div>
+
 
             <!-- Email Address -->
             <div class="mt-4">
