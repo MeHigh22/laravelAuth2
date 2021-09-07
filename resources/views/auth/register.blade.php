@@ -27,7 +27,7 @@
             {{-- Age --}}
             <div>
                 <x-label for="age" :value="__('Age')" />
-                <x-input id="age" class="block mt-1 w-full" type="text" name="age" :value="old('name')" required autofocus />
+                <x-input id="age" class="block mt-1 w-full" type="text" name="age" :value="old('age')" required autofocus />
             </div>
 
 
